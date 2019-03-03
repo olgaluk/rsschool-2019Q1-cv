@@ -1,4 +1,4 @@
-![Text](/photo.jpg)
+![Photo](/photo.jpg)
 
 # Volha Lukyanenka
 
