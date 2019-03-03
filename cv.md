@@ -36,3 +36,9 @@ Department | Department of Algebra and Geometry
 Education Information | Higher education
 Year of entry | 2003
 Year of ending | 2008
+
+## English level
+
+```A2 +(Pre-Intermediate)```
+
+I have been studying English courses for over a year. This level is confirmed by passing an English test at the third stage at RS School.
