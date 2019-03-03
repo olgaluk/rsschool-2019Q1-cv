@@ -15,3 +15,24 @@ Since childhood, I dreamed of becoming a programmer, working with computers. I h
 I think this is a great base for a programmer. It develops such qualities as attentiveness to details, the ability to decompose a task, draw up a solution algorithm, establish causal relationships. And most importantly, to find the pleasure of studying and designing complex things, from each solved problem.
 
 At this point in time, I consider myself an ideal candidate for this work. Since I have a great desire to obtain new knowledge and the ability to quickly assimilate them, a certain amount of knowledge behind my back, I know for sure who I want to be and what I want.
+
+## Skills
+
+* HTML and CSS
+* CSS Preprocessor (Sass)
+* Javascript
+* React.JS
+* Debugging tool (Chrome Dev Tools)
+* JavaScript transpilers (Babel)
+* Versioning tool (Git)
+* Graphic editor (Photoshop)
+
+## Education
+
+Educational institution | GSU, Gomel, Belarus
+------------ | -------------
+Faculty | Faculty of Mathematics
+Department | Department of Algebra and Geometry
+Education Information | Higher education
+Year of entry | 2003
+Year of ending | 2008
