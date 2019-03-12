@@ -36,6 +36,23 @@ li:focus {
   outline: none;
 }
 
+table {
+  border: 4px double black;
+  border-collapse: collapse;
+  margin: 30px;
+}
+
+th {
+  text-align: center;
+  padding: 5px;
+  border: 1px solid black;
+}
+
+td {
+  padding: 5px;
+  border: 1px solid black;
+}
+
 .header {
   display: flex;
   display: -moz-flex;
@@ -130,4 +147,9 @@ li:focus {
   margin-left: 30px;
   list-style-type: circle;
   font-size: 18px;
+}
+
+.education {
+  width: 90%;
+  margin: 20px auto;
 }
