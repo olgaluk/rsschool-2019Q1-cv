@@ -82,6 +82,39 @@ li:focus {
   align-items: center;
 }
 
+.photo {
+  position: relative;
+  width: 120px;
+  height: 150px;
+  background-image: url("./photo.jpg");
+  background-size: cover;
+  top: 15px;
+  left: 30px;
+  transform: rotateZ(-20deg);
+}
+
+.star {
+  width: 180px;
+  height: 180px;
+  margin: 10px;
+  opacity: 1;
+  background: #2fa68d;
+  position: relative;
+  transform: rotate(20deg);
+  z-index: 2;
+}
+
+.star:before {
+  content: "";
+  height: 180px;
+  width: 180px;
+  background: inherit;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: rotate(135deg);
+}
+
 .about {
   width: 90%;
   margin: 20px auto;
