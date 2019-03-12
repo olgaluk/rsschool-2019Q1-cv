@@ -39,7 +39,7 @@ li:focus {
 table {
   border: 4px double black;
   border-collapse: collapse;
-  margin: 30px;
+  margin: 10px;
 }
 
 th {
@@ -77,6 +77,7 @@ td {
 
 .header-nav ul li {
   font-size: 1.3em;
+  text-transform: uppercase;
 }
 
 .header-nav ul li a {
@@ -132,14 +133,9 @@ td {
   transform: rotate(135deg);
 }
 
-.about {
+.about, .education, .skills, .english {
   width: 90%;
   margin: 20px auto;
-}
-
-.skills {
-  width: 90%;
-  margin: 0 auto;
 }
 
 .skills ul li {
@@ -147,9 +143,4 @@ td {
   margin-left: 30px;
   list-style-type: circle;
   font-size: 18px;
-}
-
-.education {
-  width: 90%;
-  margin: 20px auto;
 }
