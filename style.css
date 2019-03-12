@@ -1,0 +1,169 @@
+.main-container {
+  max-width: 1024px;
+  margin: 0 auto;
+  background-color: #dff8f4;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2 {
+  color: rgb(8, 92, 60);
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:focus {
+  cursor: pointer;
+  outline: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+li:focus {
+  outline: none;
+}
+
+table {
+  border: 4px double black;
+  border-collapse: collapse;
+  margin: 10px;
+}
+
+th {
+  text-align: center;
+  padding: 5px;
+  border: 1px solid black;
+}
+
+td {
+  padding: 5px;
+  border: 1px solid black;
+}
+
+.header {
+  display: flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-menu,
+footer {
+  width: 100%;
+  height: 63px;
+  background-color: #97f7e7;
+}
+
+.header-nav ul {
+  display: flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  justify-content: space-around;
+  margin-top: 15px;
+}
+
+.header-nav ul li {
+  font-size: 1.3em;
+  text-transform: uppercase;
+}
+
+.header-nav ul li a,
+.data-info ul li a {
+  color: rgb(47, 79, 79);
+  border-bottom: 1px solid rgba(255, 255, 255, 0);
+  transition: all 0.2s ease 0.1s;
+}
+
+.header-nav ul li a:hover,
+.data-info ul li a:hover {
+  color: #2fa68d;
+}
+
+.info > div {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.photo {
+  position: relative;
+  width: 120px;
+  height: 150px;
+  background-image: url("./photo.jpg");
+  background-size: cover;
+  top: 15px;
+  left: 30px;
+  transform: rotateZ(-20deg);
+}
+
+.star {
+  width: 180px;
+  height: 180px;
+  margin: 10px;
+  opacity: 1;
+  background: #2fa68d;
+  position: relative;
+  transform: rotate(20deg);
+  z-index: 2;
+}
+
+.star:before {
+  content: "";
+  height: 180px;
+  width: 180px;
+  background: inherit;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: rotate(135deg);
+}
+
+.about,
+.education,
+.skills,
+.english,
+.data-info {
+  width: 90%;
+  margin: 20px auto;
+}
+
+.skills ul li {
+  margin-top: 5px;
+  margin-left: 30px;
+  list-style-type: circle;
+  font-size: 18px;
+}
+
+.data-info ul {
+  width: 80%;
+  margin: 0px auto;
+  padding-top: 20px;;
+  display: flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.data-info ul li a i {
+  margin-right: 7px;
+}
